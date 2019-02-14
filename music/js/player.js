@@ -28,28 +28,28 @@ class Musics {
                 id: 1,
                 title: 'My Bad',
                 singer: 'Joey Diggs Jr',
-                songUrl: './songs/My Bed.mp3',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=485612715.mp3',
                 imageUrl: './images/songs/mybed.jpg'
             },
             {
                 id: 2,
                 title: '走歌人',
                 singer: '暗杠',
-                songUrl: './songs/走歌人18.mp3',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=866018207.mp3',
                 imageUrl: './images/songs/zgr.png'
             },
             {
                 id: 3,
                 title: '连衣裙',
                 singer: '宋冬野',
-                songUrl: './songs/连衣裙.mp3',
+                songUrl: 'http://dl.stream.qqmusic.qq.com/M500001H7FOd2bx9rw.mp3?vkey=2BFDF94E1D39CAC62B071E4F1A427350F846C5874C9F200E1FA29EA02213F8A9F497A35BA97C5A337C1BD0E0028CE4F17A8827A74AFDC710&guid=5150825362&fromtag=1',
                 imageUrl: './images/songs/ahqb.jpg'
             },
             {
                 id: 3,
                 title: 'Killshot',
                 singer: 'Eminem',
-                songUrl: './songs/killshot.mp3',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=1311076476.mp3',
                 imageUrl: './images/songs/killshot.jpg'
             }
         ]
