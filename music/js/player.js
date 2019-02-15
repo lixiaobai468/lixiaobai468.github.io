@@ -46,12 +46,61 @@ class Musics {
                 imageUrl: './images/songs/ahqb.jpg'
             },
             {
-                id: 3,
+                id: 4,
                 title: 'Killshot',
                 singer: 'Eminem',
                 songUrl: 'http://music.163.com/song/media/outer/url?id=1311076476.mp3',
                 imageUrl: './images/songs/killshot.jpg'
-            }
+            },
+            {
+                id: 5,
+                title: 'sans.',
+                singer: 'Toby Fox',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=39224615.mp3',
+                imageUrl: 'http://p1.music.126.net/oZe-JSuWYAR8zSa29g9g0g==/3254554423361647.jpg'
+            },
+            {
+                id: 6,
+                title: '说书人',
+                singer: '暗杠',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=1303019637.mp3',
+                imageUrl: 'http://p2.music.126.net/X9-wFEy1DfWOx5R2iCXqIg==/109951163509761545.jpg'
+            },
+            {
+                id: 7,
+                title: 'Lose Yourself',
+                singer: 'Eminem',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=5052317.mp3',
+                imageUrl: 'http://p1.music.126.net/cdEfys0mWiyV4Ywp5GW9Tw==/6656443395492431.jpg'
+            },
+            {
+                id: 8,
+                title: 'So Cute~',
+                singer: 'Lopu$',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=433107530.mp3',
+                imageUrl: 'http://p1.music.126.net/yFCpD3GrgmcInAbVvVaFUg==/17999005346907556.jpg'
+            },
+            {
+                id: 8,
+                title: 'With Me',
+                singer: 'dvsn',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=408140470.mp3',
+                imageUrl: 'http://p1.music.126.net/aGKNXCo2CG7veCFo8NlQzg==/18252992533272624.jpg'
+            },
+            {
+                id: 9,
+                title: 'Sitting Next To You',
+                singer: 'Mokoa',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=29816970.mp3',
+                imageUrl: 'http://p1.music.126.net/5o-tXimRy2a7ysQh3X-qtg==/3234763211367506.jpg'
+            },
+            {
+                id: 10,
+                title: '我是全英雄联盟最骚的骚猪',
+                singer: '是大腿',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=413074398.mp3',
+                imageUrl: 'http://p1.music.126.net/n9dYYT7sLmRG_7mqnR9a8g==/109951162804895163.jpg'
+            },
         ]
     }
     //根据索引获取歌曲的方法
