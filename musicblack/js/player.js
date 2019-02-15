@@ -101,6 +101,13 @@ class Musics {
                 songUrl: 'http://music.163.com/song/media/outer/url?id=413074398.mp3',
                 imageUrl: 'http://p1.music.126.net/n9dYYT7sLmRG_7mqnR9a8g==/109951162804895163.jpg'
             },
+            {
+                id: 11,
+                title: '奥数题',
+                singer: '3Bangz',
+                songUrl: 'https://m10.music.126.net/20190215214722/215a220c2f3cf53720c2a90b5d582462/ymusic/515b/5109/555e/f19dcd95b2fce8db5f08b42ec87dae7f.mp33',
+                imageUrl: 'http://p2.music.126.net/VvxPpmWLcwwzfpaHtn5Gvw==/109951163827123476.jpg'
+            },
         ]
     }
     //根据索引获取歌曲的方法
