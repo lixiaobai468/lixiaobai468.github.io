@@ -105,8 +105,15 @@ class Musics {
                 id: 11,
                 title: '奥数题',
                 singer: '3Bangz',
-                songUrl: 'https://m10.music.126.net/20190215214722/215a220c2f3cf53720c2a90b5d582462/ymusic/515b/5109/555e/f19dcd95b2fce8db5f08b42ec87dae7f.mp33',
+                songUrl: 'https://m10.music.126.net/20190215214722/215a220c2f3cf53720c2a90b5d582462/ymusic/515b/5109/555e/f19dcd95b2fce8db5f08b42ec87dae7f.mp3',
                 imageUrl: 'http://p2.music.126.net/VvxPpmWLcwwzfpaHtn5Gvw==/109951163827123476.jpg'
+            },
+            {
+                id: 10,
+                title: '童话镇',
+                singer: '陈一发儿',
+                songUrl: 'http://lixiaobai468.github.io/songs/tonghuazhen.mp3',
+                imageUrl: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550248728859&di=7d442acc466d58ae6da9d1c3cc3125c8&imgtype=0&src=http%3A%2F%2Foss.tan8.com%2Fjtpnew%2F55%2F55455%2Fjtpnew20170603150007_big.jpg%3Fv%3D1508831809'
             },
         ]
     }
