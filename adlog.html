@@ -1,32 +1,15 @@
-<html>
-<head>
-    <title>Admin Login</title>
-<script language=javascript>
-function toopen(){
-    if(document.getElementById("password").value=="8177919"){
-           document.forms[0].action="admin.html";
-           return true;
-        }else{
-        alert("密码不正确！")
-        return false;
-        }
-    }
-</script>
-</head>
-<body class="login" bgcolor='black'>
 <center>
-    <div class="wrapper">
-        <div class="loginBox">
-            <div class="loginBoxCenter">
-<form method="post" action="index.html" name="myform" >
-                <p style="color:beige"><label for="password">Enter Password</p>
-                <p><input type="password" id="password" name="password" class="loginInput" placeholder="请输入密码" value=""/></p>         </div>
-            <div class="loginBoxButtons">
-                <input type="submit" value="登陆" class="loginBtn" onclick="return toopen();">            
-                     </form>
-            </div>
-        </div>
-    </div>
+<input id='pass'/><br><br>
+<input type="submit" value="login" class="loginBtn" onclick="return isSz();">
 </center>
-</body>
-</html>
+<script>
+function isSz(){
+        if(document.getElementById("pass").value=="8177919"){
+            window.location.href="admin.html";
+            return false;
+        }else{
+            alert('密码不正确')
+            return true;
+        }
+}
+</script>
