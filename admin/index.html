@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>jQuery竖排动画手风琴折叠菜单栏代码</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/style.js"></script>
+
+</head>
+<body><script src="/demos/googlegg.js"></script>
+<div class="content">
+<!-- .list以下（包含.list）以下为本插件内容，需要的同学可复制里面部分即可。 -->
+	<div class="list">
+		<ul>
+			<li>
+				<p class="title">system</p>
+				<ul class='list-se'>
+					<p class="title">网站必要</p>
+					<P><li><a href="http://lixiaobai468.github.io" style="color:white"><P>index</P></a></li></P>
+					<P><li><a href="http://lixiaobai468.github.io/404" style="color:white"><p>404</p></a></li></P>
+					<P><li><a href="#" style="color:white"><P>admin</p></a></li></P>
+					<P><li><a href="http://lixiaobai468.github.io/adlog" style="color:white"><P>admin log</p></a></li></P>
+				</ul>
+			</li>
+			<li>
+				<p class="title">admin</p>
+				<ul class='list-se'>
+					<p class="title">admin插件</p>
+					<li><a href="http://lixiaobai468.github.io/amenu" style="color:white"><P>admin menu</p></a></li>
+					<li><a href="http://lixiaobai468.github.io/hackv" style="color:white"><P>vip视频分析</p></a></li>
+				</ul>
+			</li>
+			<li>
+				<p class="title">mod</p>
+				<ul class='list-se'>
+					<p class="title">普通插件</p>
+					<li><a href="http://lixiaobai468.github.io/3ddemo" style="color:white"><P>3d</p></a></li>
+					<li><a href="http://lixiaobai468.github.io/bigmenu" style="color:white"><P>菜单</p></a></li>
+					<li><a href="http://lixiaobai468.github.io/biliv" style="color:white"><P>bili视屏</P></a></li>
+					<li><a href="http://lixiaobai468.github.io/fadai" style="color:white"><P>发呆</P></a></li>
+					<li><a href="http://lixiaobai468.github.io/fdblack" style="color:white"><P>手机发呆</P></a></li>
+					<li><a href="http://lixiaobai468.github.io/mofang" style="color:white"><P>cube</P></a></li>
+					<li><a href="http://lixiaobai468.github.io/mfblack" style="color:white"><P>cube black</P></a></li>
+					<li><a href="http://lixiaobai468.github.io/music" style="color:white"><P>music</P></a></li>
+					<li><a href="http://lixiaobai468.github.io/musicblack" style="color:white"><P>musicblack</P></a></li>
+					<li><a href="http://lixiaobai468.github.io/sw" style="color:white"><P>声波</P></a></li>
+					<li><a href="http://lixiaobai468.github.io/timer" style="color:white"><P>漏斗</P></a></li>
+					<li><a href="http://lixiaobai468.github.io/vaporloop" style="color:white"><P>蒸汽波循环</P></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+jQuery(document).ready(function($) 
+{
+	$('.list ul li p').clickdown();
+	$('.list-se p[class=title]').clickup();
+	$('.list>ul>li').ad();
+});
+</script>
+
+</body>
+</html>
