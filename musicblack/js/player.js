@@ -26,10 +26,10 @@ class Musics {
     constructor() {
         this.songs = [{
                 id: 1,
-                title: 'My Bad',
-                singer: 'Joey Diggs Jr',
-                songUrl: 'http://music.163.com/song/media/outer/url?id=485612715.mp3',
-                imageUrl: './images/songs/mybed.jpg'
+                title: 'wish you were gay',
+                singer: 'Billie Eilish',
+                songUrl: 'http://tools.loveme.ml/music/template/audio/wish.mp3',
+                imageUrl: 'http://p1.music.126.net/ARn_7WFEy81bwiDwwgm2AA==/109951163959066909.jpg'
             },
             {
                 id: 2,
