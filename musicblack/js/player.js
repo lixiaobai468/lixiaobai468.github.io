@@ -28,7 +28,7 @@ class Musics {
                 id: 1,
                 title: 'wish you were gay',
                 singer: 'Billie Eilish',
-                songUrl: 'http://tools.loveme.ml/music/template/audio/wish.mp3',
+                songUrl: 'http://music.163.com/song/media/outer/url?id=1350051594.mp3',
                 imageUrl: 'http://p1.music.126.net/ARn_7WFEy81bwiDwwgm2AA==/109951163959066909.jpg'
             },
             {
